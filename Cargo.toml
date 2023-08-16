@@ -1,6 +1,6 @@
 [package]
 name = "HashLimette"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Max Sitter <xxv.many@gmail.com>"]
 description = "personal tool for obfuscation of code"
