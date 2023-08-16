@@ -32,7 +32,7 @@ first of all you need your dependencies:
 
 ```toml
 [dependencies]
-hashlimette = { path = "/path/to/hashlimette" }
+hashlimette = { path = "/path/to/hashlimette" } // the exe or binary of your choice
 ```
 
 then you can use it like this:
