@@ -32,7 +32,7 @@ fn main(){
                 exit(0);
             }
             if args.iter().any(|arg| arg == "-v" || arg == "--version") {
-                println!("HashLimette 0.1.3");
+                println!("HashLimette 0.1.4");
                 exit(0);
             }
             if args.iter().any(|arg| arg == "-k" || arg == "--key"){

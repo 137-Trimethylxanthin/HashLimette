@@ -36,7 +36,7 @@ cargo add hash_limette
 
 ```toml
 [dependencies]
-hash_limette = "0.1.2"
+hash_limette = "0.1.4"
 ```
 
 then you can use it like this:
