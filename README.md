@@ -28,6 +28,14 @@ use the binary to first encrypt your strings and then in your code decrypt them 
 
 ## how to use it in your code
 
+first of all you need your dependencies:
+
+```toml
+[dependencies]
+hashlimette = { path = "/path/to/hashlimette" }
+```
+
+then you can use it like this:
 ```rust
 use hashlimette::decrypt;
 const key: &str = "your key"; // if you dont use a key in the binary you dont need to use one here the default key wil be used
