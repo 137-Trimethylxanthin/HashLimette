@@ -17,7 +17,7 @@ if you download the binary to encrypt your strings beforhand.
 
 ## how to use the binary
 
-the binary can be downloaded via cargo 
+the binary can be downloaded via cargo
 cargo install hash_limette
 
 ```bash

@@ -1,6 +1,6 @@
 [package]
 name = "hash_limette"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 authors = ["Max Sitter <xxv.many@gmail.com>"]
 description = "personal tool for obfuscation of code"
