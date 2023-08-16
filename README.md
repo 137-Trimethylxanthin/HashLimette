@@ -17,6 +17,9 @@ if you download the binary to encrypt your strings beforhand.
 
 ## how to use the binary
 
+the binary can be downloaded via cargo 
+cargo install HashLimette
+
 ```bash
 ./hashlimette -e value -k key # encrypt , key is optional
 ./hashlimette -d value -k key # decrypt, key is optional
@@ -29,10 +32,11 @@ use the binary to first encrypt your strings and then in your code decrypt them 
 ## how to use it in your code
 
 first of all you need your dependencies:
+cargo add HashLimette
 
 ```toml
 [dependencies]
-hashlimette = { path = "/path/to/hashlimette" } // the exe or binary of your choice
+hashlimette = "0.1.0"
 ```
 
 then you can use it like this:
