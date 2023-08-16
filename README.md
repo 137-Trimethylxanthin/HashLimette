@@ -20,8 +20,8 @@ if you download the binary to encrypt your strings beforhand.
 ```bash
 ./hashlimette -e value -k key # encrypt , key is optional
 ./hashlimette -d value -k key # decrypt, key is optional
-./hashlimette -b64d value # base64 decode
-./hashlimette -b64e value # base64 encode
+./hashlimette -bd value # base64 decode
+./hashlimette -be value # base64 encode
 ./hashlimette -h # help
 ```
 use the binary to first encrypt your strings and then in your code decrypt them with the function decrypt().
