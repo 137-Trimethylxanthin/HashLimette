@@ -1,7 +1,7 @@
 # HashLimette.
 
 
-## now is:
+## is a:
 
 a cargo package for rust to encrypt your code so if you decompile it no strings will be shown.
 
